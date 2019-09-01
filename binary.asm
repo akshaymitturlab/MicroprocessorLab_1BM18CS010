@@ -30,7 +30,6 @@ ENDM
         MOV BL, AL
         XOR AH, AH
         MOV BP, AX
-        MOV BP, AX
         MOV AL, DS:[BP][SI]
         CMP AL, KEY
         JE SUCCESS
